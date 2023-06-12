@@ -1,0 +1,50 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+}
+
+.event-container {
+  width: 60%;
+  background-color: #64748b;
+  padding: 30px;
+  overflow-y: auto;
+  height: 100vh;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: #f8fafc;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.events-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+.event-card {
+  list-style-type: none;
+  margin-bottom: 30px;
+}
+
+.name {
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 500;
+  color: #f8fafc;
+  margin: 0;
+  margin-top: 15px;
+}
+
+.location {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #f8fafc;
+  margin: 0;
+  margin-top: 5px;
+}
